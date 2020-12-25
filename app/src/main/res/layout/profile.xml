@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent" android:background="#FFFFFF">
+
+    <ImageView
+            android:layout_width="131dp"
+            android:layout_height="66dp" app:srcCompat="@drawable/screenshot_3" android:id="@+id/logo_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.057"
+            app:layout_constraintVertical_bias="0.024"
+            android:onClick="onClick"
+            android:clickable="true"/>
+    <ImageView
+            android:layout_width="102dp"
+            android:layout_height="94dp" app:srcCompat="@drawable/screenshot_2" android:id="@+id/imageView7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.11"
+            app:layout_constraintVertical_bias="0.304"/>
+    <TextView
+            android:text="Profile:"
+            android:layout_width="77dp"
+            android:layout_height="39dp" android:id="@+id/textView"
+            android:textColor="#8B45C2" android:textSize="24sp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.047"
+            app:layout_constraintVertical_bias="0.179"/>
+    <TextView
+            android:text="Last Call:"
+            android:layout_width="142dp"
+            android:layout_height="37dp" android:id="@+id/textView12"
+            android:textColor="#8B45C2" android:textSize="24sp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.059"
+            app:layout_constraintVertical_bias="0.595"/>
+    <TextView
+            android:text="Anton Kim"
+            android:layout_width="128dp"
+            android:layout_height="38dp" android:id="@+id/nametext"
+            android:textColor="#8B45C2" android:textSize="24sp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.519"
+            app:layout_constraintVertical_bias="0.279"/>
+    <TextView
+            android:text="Police station"
+            android:layout_width="136dp"
+            android:layout_height="35dp" android:id="@+id/textView13"
+            android:textColor="#000000" android:textSize="20sp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.163"
+            app:layout_constraintVertical_bias="0.665"/>
+    <TextView
+            android:text="Address: "
+            android:layout_width="73dp"
+            android:layout_height="23dp" android:id="@+id/textView10"
+            android:textColor="#8B45C2" android:textSize="18sp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.162"
+            app:layout_constraintVertical_bias="0.432"/>
+    <TextView
+            android:text="Almaty, Manasa 34"
+            android:layout_width="214dp"
+            android:layout_height="23dp" android:id="@+id/addresstext"
+            android:textColor="#000000" android:textSize="18sp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.432" app:layout_constraintHorizontal_bias="0.649"/>
+    <TextView
+            android:text="Edit profile"
+            android:layout_width="79dp"
+            android:layout_height="24dp" android:id="@+id/textView9"
+            android:textColor="#8B45C2" android:textSize="14sp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.993"
+            app:layout_constraintVertical_bias="0.275" android:clickable="true" android:onClick="signup"/>
+    <TextView
+            android:text="29.10.2020 20:38"
+            android:layout_width="112dp"
+            android:layout_height="16dp" android:id="@+id/textView15"
+            android:textColor="#575757" android:textSize="14sp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.919"
+            app:layout_constraintVertical_bias="0.647"/>
+    <TextView
+            android:text="+7 (707) xxx xx xx"
+            android:layout_width="155dp"
+            android:layout_height="24dp" android:id="@+id/phonetext"
+            android:textColor="#000000" android:textSize="18sp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.574"
+            app:layout_constraintVertical_bias="0.355"/>
+    <TextView
+            android:text="Almaty, Manasa 34"
+            android:layout_width="155dp"
+            android:layout_height="24dp" android:id="@+id/textView14"
+            android:textColor="#000000" android:textSize="18sp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.214"
+            app:layout_constraintVertical_bias="0.721"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
